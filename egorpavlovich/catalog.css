@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+    font-family: "Montserrat";
+    margin: 0px;
+}
+
+.header{
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px ;
+}
+
+.headerbox{
+    display: flex;
+    max-width: 1520px;
+    width: 100%;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: white;
+}
+
+a:hover{
+    background-size: 100% 1.5px;
+}
+
+.join{
+    color: white;
+}
+
+
+.navigation{
+    max-width: 434px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+}
+
+.footer_box{
+    max-width: 1520px;
+    width: 100%;
+   height: 359px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.otstup2{
+    margin-top: 508px;
+}
+
+.footer_logo{
+    display: flex;
+    gap: 32px;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+}
+
+.media_icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 230px;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_link{
+    color: black;
+}
+
+
+.filter{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-width: 365px;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+.filter_name{
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 29px;
+}
+
+
+p{
+    margin: 0;
+}
+
+
+.chose_filter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 41px;
+    height: 798px;
+}
+
+
+.main_filter{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px ;
+    gap: 20px;
+}
+
+.main_box{
+    max-width: 365px;
+    width: 100%;
+
+}
+
+.filter_year{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+.filter_time{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.filter_genre{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+.catalog{
+  display: flex;
+  justify-content: center;
+}
+
+.catalog_box{
+    display: grid;
+    max-width: 1135px;
+    width: 100%;
+    grid-template-columns: repeat(3,auto);
+    gap: 0px 20px;
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+.album_name{
+    color: white;
+    padding-top: 14px;
+}
+
+.cost{
+    color: white;
+    padding-top: 14px;
+}
+
+.misc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pictures_album{
+        width: 100%;
+        max-width: 365px;
+        max-height: 350px;
+        height: 100%;
+}
+
