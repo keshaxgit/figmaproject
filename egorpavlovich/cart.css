@@ -5,15 +5,12 @@ body{
     margin: 0px;
 }
 
-
-
 .header{
     border-radius: 0 0 5px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 13px ;
-    
 }
 
 .headerbox{
@@ -24,13 +21,6 @@ body{
     justify-content: space-between;
     align-items: center;
     
-}
-
-.navigation{
-    max-width: 434px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 a{
@@ -51,123 +41,13 @@ a:hover{
     color: white;
 }
 
-.box{
-    display: flex;
-    justify-content: space-between;
+
+.navigation{
+    max-width: 434px;
     width: 100%;
-    background-color: #F6F6F6;
-    max-width: 1520px;
-    height: 321px;
-    border-radius: 5px;
-}
-
-.aboutShop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.otstup{
-    padding-top: 28px ;
-}
-
-h1{
-    font-size: 24px;
-    
-}
-
-
-.about{
-    
-    padding: 0px 32px;
-    font-size: 16px;
-}
-
-.popural{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color:white;
-}
-
-.artist_name{
-    color: white;
-    font-size: 16px;
-}
-
-
-.go{
-    border: none;
-    color: white;
-    background-color: black;
-    font-size: 12px;
-}
-
-.artist{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.artist_box{
-    display: grid;
-    max-width: 1520px;
-    width: 100%;
-    grid-template-columns: repeat(4,auto);
-    column-gap: 20px;
-    row-gap: 17px;
-}
-
-.about_artist{
-    max-width: 365px;   
-}
-
-.disc{
     display: flex;
     justify-content: space-between;
 }
-
-.artist_photo{
-    border-radius: 10px;
-}
-
-
-button{
-    font-family: "Montserrat";  
-}
-
-.about_us{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color: white;
-}
-
-.find_us{
-    display: flex;
-    justify-content: center;
-}
-.box_us{
-    max-width: 1520px;
-    width: 100%;
-    background-color: white;
-    height: 321px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.where_find_us{
-    padding: 0 32px;
-}
-
-.map{
-    border-radius: 5px;
-}
-
 
 .footer{
     display: flex;
