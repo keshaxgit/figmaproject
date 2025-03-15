@@ -104,6 +104,11 @@ a:hover{
 .main_cart{
    display: flex;
    justify-content: center;
+   padding-top: 80px ;
+   max-width: 1520px;
+  
+
+
    
 }
 
@@ -112,9 +117,8 @@ a:hover{
     display: flex;
     max-width: 1000px;
     width: 100%;
-    
     justify-content: center;
-    gap: 40px 40px;
+    gap: 40px 20px;
     
 }
 
@@ -122,7 +126,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(4,auto);
     gap: 30px 40px;
-    padding-top: 30px;
+    
     
 }
 
@@ -162,12 +166,41 @@ a:hover{
     flex-direction: column;
 }
 
-.add_cart{
+
+
+.another_album{
     display: flex;
-    max-width: 350px;
-    width: 100%;
-    max-height: 69px;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 142px;
 }
 
+.main_another{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-top: 55px;
+   
+    
+}
 
+.another_box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    max-width: 1520px;
+    width: 100%;
+    column-gap: 40px;
+}
+
+.another_img{
+    display: flex;
+    flex-direction: column;
+    gap: 0px 40px;
+}
+
+.another_misc{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
