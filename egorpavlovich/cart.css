@@ -104,6 +104,7 @@ a:hover{
 .main_card{
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 }
 
 .main_card_box{
