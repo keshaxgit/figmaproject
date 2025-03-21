@@ -297,3 +297,16 @@ p{
     border: 1px solid black;
     border-radius: 10px;
 }
+
+.main_payment{
+    display: flex;
+    justify-content: center;
+}
+
+.payment_box{
+    max-width: 1006px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
